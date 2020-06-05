@@ -31,7 +31,7 @@ function drawFood(){
 }
 
 
-document.addEventListener('keydown' update);
+document.addEventListener('keydown', update);
 
 function update (event){
 	if(event.keyCode == 37 && direction != "right") direction = "left";
@@ -85,4 +85,4 @@ function iniciarJogo(){
 	
 }
 
-let jogo = setIterval(iniciarJogo, 100);
+let jogo = setInterval(iniciarJogo, 100);
